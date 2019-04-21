@@ -1,0 +1,36 @@
+.page-footer {
+  margin: 0 auto;
+  max-width: $cont-width;
+  padding: 10px 0;
+
+  &__content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width: 694px) {
+  .page-footer {
+    max-width: $tab-width;
+    padding: 25px 0;
+
+    &__content {
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media (min-width: 1171px) {
+  .page-footer {
+    max-width: $dtcont-width;
+    padding: 50px 135px;
+
+    &__content {
+      font-size: 14px;
+    }
+  }
+}

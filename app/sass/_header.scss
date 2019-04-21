@@ -1,0 +1,31 @@
+.page-header {
+  background-color: black;
+  margin: 0 auto;
+
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 15px ;
+  }
+  &__logo{
+    width: 145px;
+    height: 40px;
+  }
+
+}
+
+
+
+@media (min-width: 694px) {
+  .page-header{
+    &__wrapper{
+      padding: 21px;
+    }
+
+    &__logo{
+      width: 241px;
+      height: 66px;
+    }
+  }
+}

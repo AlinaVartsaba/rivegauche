@@ -1,0 +1,50 @@
+.list {
+  display: none;
+  margin: 0 auto;
+  &__item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+}
+
+
+//
+//@media (min-width: 694px) {
+//  .list{
+//    display: flex;
+//  }
+//}
+
+
+
+@media (min-width: 1184px) {
+  .list{
+    display: flex;
+    max-width: $dtcont-width;
+    justify-content: space-between;
+    padding: 62px 0 15px 0;
+
+    &__item{
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    &__item_shop {
+      padding-left: 72px;
+      padding-right: 143px;
+    }
+
+    &__item_stock {
+      padding-right: 135px;
+    }
+
+    &__item_brand {
+      padding-right: 99px;
+    }
+
+    &__item_discount {
+      padding-right: 70px;
+    }
+
+  }
+}

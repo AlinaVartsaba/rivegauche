@@ -1,0 +1,80 @@
+.beauty {
+  max-width: $cont-width/2;
+  padding-right: 15px;
+  position: relative;
+  top: 25px;
+  //padding-top: 50px;
+  padding-bottom: 20px;
+  height: 60px;
+
+  &__party {
+    width: 100%;
+    height: auto;
+  }
+
+  &__star {
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: 1px;
+  }
+
+  &__heart {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    left: 120px;
+  }
+}
+
+
+@media (min-width: 694px) {
+  .beauty {
+    max-width: $tab-width/2;
+    padding-right: 35px;
+    padding-top: 22px;
+    padding-bottom: 35px;
+
+    &__star {
+      width: 33px;
+      height: 34px;
+      top: 23px;
+    }
+
+    &__heart {
+      width: 55px;
+      height: 45px;
+      left: 275px;
+      top: 8px;
+    }
+  }
+}
+
+
+@media (min-width: 1171px) {
+  .beauty {
+    max-width: $dtcont-width/2;
+    padding-right: 74px;
+    padding-top: 62px;
+    padding-bottom: 50px;
+
+    &__party {
+      width: 520px;
+      height: 460px;
+    }
+
+    &__star {
+      width: 63px;
+      height: 64px;
+      position: absolute;
+      top: 50px;
+    }
+
+    &__heart {
+      width: 105px;
+      height: 95px;
+      left: 450px;
+      top: 30px;
+    }
+  }
+}
